@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "serve": "node app.js"
+  },
+  "author": "andyyairb@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "uuid": "^9.0.1"
+  }
+}

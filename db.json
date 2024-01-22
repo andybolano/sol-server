@@ -1,0 +1,92 @@
+{
+  "trips": [
+    {
+      "id": "1",
+      "clientName": "Andy Yair Bolaño Castilla",
+      "address": {
+        "name": "Cra 19 #24-60, Valledupar",
+        "location": {
+          "lng": 9.284672,
+          "lat": 45.512832
+        }
+      },
+      "departureDate": "2023-02-19",
+      "cargoDetails": "Nothing delicate"
+    },
+    {
+      "id": "2",
+      "clientName": "Suleidy Alvarez",
+      "address": {
+        "id": "address.3544712766453322",
+        "name": "Diagonal 18b, 200004 Valledupar, Cesar, Colombia",
+        "location": {
+          "lng": -73.2622959,
+          "lat": 10.4581232
+        }
+      },
+      "departureDate": "2023-02-28",
+      "cargoDetails": "Paquete delicado",
+      "createdAt": 1705860710823
+    },
+    {
+      "id": "05195832-ebf1-4ef7-b35a-e1ea32819e54",
+      "clientName": "Pedro Picapiedra",
+      "address": {
+        "id": "poi.893353234477",
+        "name": "Valledupar, Valledupar, Cesar 200003, Colombia",
+        "location": {
+          "lng": -73.248117,
+          "lat": 10.43361
+        }
+      },
+      "departureDate": "2024-02-01",
+      "cargoDetails": "",
+      "createdAt": 1705956166573
+    },
+    {
+      "id": "0969d8d3-ac7a-4b4c-83a3-4e9ebe7737bb",
+      "clientName": "Vilma Picapiedra",
+      "address": {
+        "id": "poi.893353234477",
+        "name": "Valledupar, Valledupar, Cesar 200003, Colombia",
+        "location": {
+          "lng": -73.248117,
+          "lat": 10.43361
+        }
+      },
+      "departureDate": "2024-01-31",
+      "cargoDetails": "Details",
+      "createdAt": 1705960780285
+    },
+    {
+      "id": "e234b544-0a08-44b5-85aa-37e333a31d67",
+      "clientName": "Pablo Marmol",
+      "address": {
+        "id": "place.755762",
+        "name": "Barranquilla, Atlántico, Colombia",
+        "location": {
+          "lng": -74.801309,
+          "lat": 10.979967
+        }
+      },
+      "departureDate": "2024-01-31",
+      "cargoDetails": "",
+      "createdAt": 1705960862155
+    },
+    {
+      "id": "5d1008b0-85c7-48ca-9170-fb5ecc6a3c31",
+      "clientName": "Betty Marmol",
+      "address": {
+        "id": "poi.893353234477",
+        "name": "Valledupar, Valledupar, Cesar 200003, Colombia",
+        "location": {
+          "lng": -73.248117,
+          "lat": 10.43361
+        }
+      },
+      "departureDate": "2024-01-31",
+      "cargoDetails": "Detail here!",
+      "createdAt": 1705962688707
+    }
+  ]
+}

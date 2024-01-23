@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "serve": "json-server --watch db.json --port 4201"
+    "serve": "json-server --watch db.json"
   },
   "author": "andyyairb@gmail.com",
   "license": "ISC",

@@ -51,8 +51,5 @@ server.patch("/trip/:id", (req, res) => {
 
 });
 
-const port = 4201
 server.use(router);
-server.listen(port, () => {
-  console.log(`JSON Server is running ${port}`);
-});
+server.listen();

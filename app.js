@@ -17,7 +17,7 @@ server.get("/trips", (req, res) => {
   res.jsonp(router.db.get("trips"));
 });
 
-server.get("/trip/:id", (req, res) => {
+server.get("/trips/:id", (req, res) => {
   const tripId = req.params.id
   const trip = router.db.get("trips").find({ id: tripId }).value();
 
@@ -28,14 +28,14 @@ server.get("/trip/:id", (req, res) => {
   return res.json(trip)
 })
 
-server.post("/trip", (req, res) => {
+server.post("/trips", (req, res) => {
   const trip = req.body;
   trip.id = uuidv4();
   router.db.get('trips').push(trip).write();
   res.jsonp(trip);
 });
 
-server.patch("/trip/:id", (req, res) => {
+server.patch("/trips/:id", (req, res) => {
   const tripId = req.params.id;
   const updatedTripData = req.body;
 
@@ -52,6 +52,6 @@ server.patch("/trip/:id", (req, res) => {
 });
 
 server.use(router);
-server.listen(process.env.PORT || 3001, () => {
-  console.log("JSON Server is running", process.env.PORT);
+server.listen(3000, () => {
+  console.log("JSON Server is running", 3000);
 });

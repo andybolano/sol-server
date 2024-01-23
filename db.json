@@ -87,6 +87,21 @@
       "departureDate": "2024-01-31",
       "cargoDetails": "Detail here!",
       "createdAt": 1705962688707
+    },
+    {
+      "id": "b626279a-27e8-4469-adc8-8bdf434b8cac",
+      "clientName": "Roberto Gomez",
+      "address": {
+        "id": "place.17567",
+        "name": "Mexico City, Mexico",
+        "location": {
+          "lng": -99.1331785,
+          "lat": 19.4326296
+        }
+      },
+      "departureDate": "2024-01-31",
+      "cargoDetails": "Delicate",
+      "createdAt": 1706036330439
     }
   ]
 }

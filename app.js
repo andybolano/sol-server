@@ -52,4 +52,6 @@ server.patch("/trip/:id", (req, res) => {
 });
 
 server.use(router);
-server.listen();
+server.listen(process.env.PORT || 3001, () => {
+  console.log("JSON Server is running", process.env.PORT);
+});

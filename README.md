@@ -3,8 +3,12 @@
 ## General Info
 Server for testing purposes.
 
-## Installation with docker image 🐋
+## Technologies
+A list of technologies used within the project:
+* [JSON-server](https://www.npmjs.com/package/json-server): Version ^0.17.0 
+* [Node.js](https://nodejs.org/): Version 16.0.0
 
+## Installation with docker image 🐋
 
 ```
 $ git clone https://github.com/andybolano/sol-server/
